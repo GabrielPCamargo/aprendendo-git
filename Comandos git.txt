@@ -8,7 +8,7 @@ git status -> Mostra o estado dos arquivos
 
 git add -> adicionar cada mudança no arquivo
 
-git commit -m{'mensagem'} ""
+git commit -a{todosArquivosModificados}m{'mensagem'} ""
 
 git log -> ver commits
 git log --decorate -> Commits mais específicos
@@ -20,4 +20,11 @@ git shortlog -sn  -> Ver quantos commits cada um fez
 
 git show {hash} -> Mostra alterações de um commit
 
+git diff -> alterações antes de commit
+git diff --name-only -> Nome dos arquivos modificados
 
+git checkout {nomedoarquivo}-> Volta arquivo unstaged
+
+git reset HEAD {nomedoarquivo} -> torna unstaged o que era staged
+
+git reset --soft(staged) ou --mixed(unstaged) ou --hard(deletaTudo) {hash} -> Voltar commit, selecionar um dos comandos, hash anterior ao que quer
