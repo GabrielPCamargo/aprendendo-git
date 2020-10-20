@@ -9,3 +9,15 @@ git status -> Mostra o estado dos arquivos
 git add -> adicionar cada mudança no arquivo
 
 git commit -m{'mensagem'} ""
+
+git log -> ver commits
+git log --decorate -> Commits mais específicos
+git log --author"" -> buscra autor
+git log --graph -> Mostra gráficos de branchs 
+
+git shortlog -> Autores, quantos commits e quais des
+git shortlog -sn  -> Ver quantos commits cada um fez
+
+git show {hash} -> Mostra alterações de um commit
+
+
