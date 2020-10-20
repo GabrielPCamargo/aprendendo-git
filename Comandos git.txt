@@ -1,0 +1,11 @@
+git init -> Inicializa o git e começa a observar
+Criar Readme.md 
+
+Estados
+    untracked, unmodified, modified, staged(adicionado, mas não commitado)
+
+git status -> Mostra o estado dos arquivos
+
+git add -> adicionar cada mudança no arquivo
+
+git commit -m{'mensagem'} ""
